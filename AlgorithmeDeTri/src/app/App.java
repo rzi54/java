@@ -1,18 +1,15 @@
 /**
  * 
  */
-package test;
+package app;
 
 import utilities.Utils;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * @author Randy LUZI
+/*
+ * @author Rzi
  *
- *         Les noms des variables (p, q, m, etc.) du package Utils. java sont
- *         toujours tirés des pseudo-codes disponibles sur wikipédia.
- * 
  */
 public class App {
 
@@ -26,16 +23,12 @@ public class App {
 
 		start();
 
-	} // fin main
+	} 
 
-	/*
-	 * start
-	 */
 	private static void start() {
 
 		System.out.println("--------------------------------------\n");
-		System.out.println("> Algorithmes de tri et autres");
-		System.out.println("> Par Randy LUZI\n");
+		System.out.println("> Algorithmes de tri et autres\n");
 		System.out.println("--------------------------------------\n");
 
 		menu();
@@ -72,7 +65,6 @@ public class App {
 		return valueInput;
 	}
 
-	/* Check Integer */
 	public static void menu() {
 
 		System.out.println("Menu contextuel : ");
